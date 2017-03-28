@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^m\.zuvt\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.m\.zuvt\.me$
+RewriteRule ^/?$ "http\:\/\/zuvt\.me\/m_home\.php" [R=301,L]
+

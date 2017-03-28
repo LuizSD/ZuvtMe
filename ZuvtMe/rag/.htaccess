@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^rag\.zuvt\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rag\.zuvt\.me$
+RewriteRule ^/?$ "http\:\/\/rag\.zuvt\.me\/login\.php" [R=301,L]
+

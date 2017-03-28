@@ -1,0 +1,143 @@
+ul {    list-style:  none;}
+ul li:before {    display:inline-block; 
+            width:0;
+            height:0;  
+            border-top:solid transparent;  
+            border-bottom:solid transparent; 
+            border-left:solid #f00;  
+            border-width:5px; 
+            content:' '; 
+            margin-right: 5px;}
+
+    
+#botao{
+
+background-color:transparent;
+color:red;
+font-family:comic sans ms;
+border:none;
+
+}
+
+body
+{
+background:#F2F2F2 url("bgdegrade.jpg") 
+top left repeat-x;  
+}    
+
+#site
+{
+border: none;
+background:#F2F2F2 url("bgdegrade.jpg") 
+top left repeat-x;     
+position:absolute;
+width:700px;
+top:0%;
+left:50%;
+margin-left: -450px;
+}
+#banner
+{
+background:#341C1C;
+position:absolute;
+width:99%;
+height:71px;
+top:-6px;
+left:230px;
+}
+#corpo
+{
+border: nome;    
+background:#F2F2F2;    
+position: absolute;
+width:600px;
+margin-top:330px;
+left:0%;
+}
+#foto_nome
+{
+position:absolute;
+margin-left:0%;
+margin-top:180px;
+height: 120px;
+
+}
+#procurar_top
+{
+    position:absolute;
+    margin-left:720px;
+    margin-top:10px;
+    width:300px;
+}
+#menu
+{
+position:absolute;
+width:250px;
+top:330px;
+left:640px;;
+}
+#amigos
+{
+position:absolute;
+width:250px;
+top:180px;
+height:120px;
+left:640px;
+}
+#meio
+{
+position:absolute;
+width:600px;
+top:200px;
+left:0px;
+}
+
+.textos1
+{
+font-family:Myriad Pro, Arial;
+font-size:14px;
+color:#ffffff;
+}
+
+a:link{   
+ text-decoration: none;
+ color:#341C1C;
+ font-size:14px;
+}
+
+a:visited{   
+ text-decoration: none;
+ color:#341C1C;
+ font-size:14px;
+}
+
+a:hover{   
+ text-decoration: underline;
+ color:#341C1C;
+ font-size:14px;
+}
+
+a:active{   
+ text-decoration: none;
+ color:#341C1C;
+ font-size:12px;
+}
+
+.textos2
+{
+font-family:Myriad Pro, Arial;
+font-size:14px;
+color:#341C1C;
+}
+.textos3
+{
+font-family:Myriad Pro, Arial;
+font-size:8px;
+color:#341C1C;
+}
+.nome
+{
+  font-family: Calibri, Arial;
+  font-size: 24pt;
+    
+}
